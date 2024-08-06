@@ -1,3 +1,6 @@
+# How to run?
+### STEPS:
+
 ```bash
 conda create -n mlproj python=3.8 -y 
 ```
