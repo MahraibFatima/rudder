@@ -1,3 +1,5 @@
+from mlProject.logger.logger import Logger #/workspaces/rudder/src/mlProject/logger/logger.py
+#logger = Logger(__name__).get_logger()
 from src.mlProject.constants import *
 from src.mlProject.utils.common import read_yaml, create_directories
 
