@@ -1,13 +1,9 @@
 import os
 from pathlib import Path
 import logging
-
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-
 project_name = "mlProject"
-
-
 
 list_of_files = [
     f"src/{project_name}/__init__.py",
@@ -33,8 +29,6 @@ list_of_files = [
 
 ]
 
-
-
 for filepath in list_of_files:
     filepath = Path(filepath)
 
@@ -48,7 +42,6 @@ for filepath in list_of_files:
         with open(filepath, "w") as f:
             pass
             logging.info(f"Creating empty file: {filepath}")
-
 
     else:
         logging.info(f"{filename} is already exists")

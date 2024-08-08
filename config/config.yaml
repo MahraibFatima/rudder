@@ -1,8 +1,15 @@
 artifacts_root: artifacts
 
-
+# to  -> /workspaces/rudder/research/01_data_ingestion.ipynb
 data_ingestion:
   root_dir: artifacts/data_ingestion
   source_URL: https://github.com/MahraibFatima/100DaysOf-Bytewise/raw/main/Projects/WineQualityPrediction/winequality-data.zip
   local_data_file: artifacts/data_ingestion/WineQualityDataset.zip
   unzip_dir: artifacts/data_ingestion
+
+
+# to -> /workspaces/rudder/research/02_data_validation.ipynb
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
+  STATUS_FILE: artifacts/data_validation/status.txt

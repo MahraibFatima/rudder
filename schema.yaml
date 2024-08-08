@@ -1,3 +1,5 @@
+# use in data vallidation step to check whether all columns are available in .csv file or not
+
 COLUMNS:
   fixed acidity: float64
   volatile acidity: float64
