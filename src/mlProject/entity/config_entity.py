@@ -22,3 +22,14 @@ class DataValidationConfig:
 class DataTransformationConfig:
     root_dir: Path
     data_path: Path
+
+# from -> /workspaces/rudder/src/mlProject/components/data_transformation.py __cell-5__
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    root_dir: Path
+    train_data_path: Path
+    test_data_path: Path
+    model_name: str
+    alpha: float
+    l1_ratio: float
+    target_column: str
