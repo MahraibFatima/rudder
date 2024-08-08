@@ -1,8 +1,8 @@
 # from -> /workspaces/rudder/research/01_data_ingestion.ipynb __cell-6__
 
-from mlProject.constants import *
-from mlProject.utils.common import read_yaml, create_directories
-from mlProject.entity.config_entity import DataIngestionConfig
+from src.mlProject.constants import *
+from src.mlProject.utils.common import read_yaml, create_directories
+from src.mlProject.entity.config_entity import DataIngestionConfig
 
 class ConfigurationManager:
     def __init__(
