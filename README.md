@@ -1,4 +1,4 @@
-# How to run?
+# Wanna run?
 ### STEPS:
 
 ```bash
