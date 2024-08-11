@@ -1,24 +1,42 @@
-# Wanna run?
-### STEPS:
+# Wine Prediction MLOps Project
 
-```bash
-conda create -n mlproj python=3.8 -y 
-```
+## Overview
+This project demonstrates the deployment of a machine learning model for wine quality prediction. Using MLOps practices, we've automated the workflow from data preprocessing to model deployment.
 
-```bash
-conda activate mlproj
-```
+## Quick Start
 
+1. **Create Environment:**
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    conda create -n mlproj python=3.8 -y 
+    ```
 
-```bash
-python app.py
-```
+2. **Activate Environment:**
 
-```bash
-Now open up your local host 0.0.0.0:8080
-```
+    ```bash
+    conda activate mlproj
+    ```
 
+3. **Install Dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run Application:**
+
+    ```bash
+    python app.py
+    ```
+
+5. **Access the Application:**
+   
+    Open your browser and go to `0.0.0.0:8080`.
+
+## Demo Video
+[Watch the demo on YouTube](https://youtu.be/lkKLTN5dH40)
+
+## Key Features
+- Automated CI/CD Pipeline
+- Scalable Deployment
+- Real-time Model Predictions
