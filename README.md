@@ -3,6 +3,11 @@
 ## Overview
 This project demonstrates the deployment of a machine learning model for wine quality prediction. Using MLOps practices, we've automated the workflow from data preprocessing to model deployment.
 
+## Key Features
+- Automated CI/CD Pipeline
+- Scalable Deployment
+- Real-time Model Predictions
+  
 ## Demo Video
 [Watch the demo on YouTube](https://youtu.be/lkKLTN5dH40)
 
@@ -35,8 +40,3 @@ This project demonstrates the deployment of a machine learning model for wine qu
 5. **Access the Application:**
    
     Open your browser and go to `0.0.0.0:8080`.
-
-## Key Features
-- Automated CI/CD Pipeline
-- Scalable Deployment
-- Real-time Model Predictions
